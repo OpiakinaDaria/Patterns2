@@ -28,7 +28,7 @@ public class DataGenerator {
         given()
                 .spec(requestSpec)
                 .body(user)
-                .post("/api/sysytem/users")
+                .post("/api/system/users")
                 .then()
                 .statusCode(200);
         return user;
